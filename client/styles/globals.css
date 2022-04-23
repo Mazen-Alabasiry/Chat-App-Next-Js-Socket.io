@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100vh;
+    background-color: #EEE;
+    text-align: center;
+    font-family: cursive;
+}
+@media  (max-width: 1200px){
+     .container {
+    width: 400px;
+    
+  }
+}
+
+@media  (max-width: 425px){
+  .container {
+    width: 80%;
+  }
+  .container h3{
+    font-size: 2rem !important;
+  }
+}
